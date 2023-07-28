@@ -1,0 +1,29 @@
+
+.container {
+font-family:monospace;
+background-color: #ffcccc;
+font-size:20px;
+
+color: #ff6666;
+text-align: center;
+display: flex;
+justify-content: center; /* Align content horizontally */
+align-items: center; /* Align content vertically */
+height: 10vh;
+}
+.container1 {
+font-family: sans-serif;
+background-color: #ffcccc;
+font-size:40px;
+color: #ff6666;
+text-align: center;
+height: 100vh;
+border-radius: 6px;
+
+}
+form{
+    background-color: #ff9999;
+    border-radius: 8px;
+    padding: 20px;
+}
+

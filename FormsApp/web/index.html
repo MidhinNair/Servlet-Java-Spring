@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <title>formPage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class = "container1">
+            <h1 style="padding:  30px; color: #660000; ">Form</h1>
+            <div class = "container">
+            <form id="frm" action="RegisterServlet" method="post">
+                <table>
+                    <tr>
+                        <td> Enter name :  </td>
+                        <td><input type="text" name="userName" placeholder ="EnteryourName"> </td>
+                    </tr>
+                    <tr>
+                        <td> Enter password :  </td>
+                        <td><input type="password" name="password" placeholder ="EnteryourPassword"> </td>
+
+                    </tr>
+                     <tr>
+                        <td> Enter email :  </td>
+                        <td><input type="email" name="email" placeholder ="EnteryourEmail"> </td>
+                    </tr>
+                     
+                     <tr>
+                        <td> Select Gender :  </td>
+                        <td><input type="radio" name="userGender" value="Male"> Male &nbsp; &nbsp;
+                            <input type="radio" name="userGender" value="Female"> Female </td>
+                       
+                    </tr>
+                    <tr>
+                         <td> Age :  </td>
+                        <td><input type="number" name="age" placeholder ="EnterAge"> </td>
+                    </tr>
+                    <tr>
+                         <td> Select Your Course :  </td>
+                         <td><select name="userCourse">
+                                 <option value=" Java">Java</option>
+                                 <option value=" php">php</option>
+                                 <option value=" JS">JS</option>
+                                 <option value=" MySQL">MySQL</option>
+                                 <option value=" NodeJS">NodeJS</option>
+                                 
+                             </select> </td>
+                    </tr>
+                    <tr>
+                        <td style=" text-align: right">
+                            <input type ="checkbox" value="true" name="Condition"/>  
+                        </td>
+                        <td>
+                            Agree Terms and Condition
+                        </td>
+                        
+                    </tr>
+                    <tr><td></td>
+                        <td style=" text-align: left">
+                            <button type="Submit"> Register </button>
+                            <button type="Reset"> reset </button>
+                        
+                        </td>
+                    </tr>
+                </table>
+                
+            </form>
+           
+         </div>
+        </div>
+    </body>
+</html>
+
